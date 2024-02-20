@@ -5,7 +5,7 @@ import { ref } from "vue";
 let todoList = ref([]);
 let todo = ref(null);
 
-// Adding todo from the list
+// Adding todo to the list
 const addTodo = () => {
   if (validateTodo(todo.value)) {
     let id = todoList.value.length;
